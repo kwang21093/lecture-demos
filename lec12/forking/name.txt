@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Hi there, my name is [Apex Annihilate].
+=======
+Hi there, my name is [sven].
+>>>>>>> upstream/master
