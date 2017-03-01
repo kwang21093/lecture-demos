@@ -19,5 +19,5 @@ if [[ "$?" -ne 0 ]]; then
 fi
 
 # Get the git branch
-branch="$(git branch | grep '*')"
+branch="$(git branch | grep '*' | awk '{ print $2 }')"
 echo "The branch you are on: $branch"
